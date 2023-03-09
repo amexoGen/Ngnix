@@ -1,0 +1,17 @@
+{
+  "name": "myserver",
+  "version": "0.0.1",
+  "description": "A test for ngix",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AniumX",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.21"
+  }
+}

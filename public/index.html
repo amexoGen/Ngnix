@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anium Email</title>
+    <link rel="shortcut icon" href="https://pngimg.com/d/email_PNG15.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style-2.css">
+</head>
+<body>
+    <nav>
+        <img src="https://pngimg.com/d/email_PNG15.png" width="50">
+        <h1>TEMP<span>MAIL</span></h1>  
+    </nav>
+    <main>
+        <div class="container">
+            <div class="form" style="display: flex;" >
+                <div class="form-top">
+                    <div class="input-data">
+                        <input placeholder=" " id="to"/>
+                        <label>To</label>
+                    </div>
+                </div>
+                <div class="input-data">
+                    <input placeholder=" " id="subject"/>
+                    <label>Subject</label>
+                </div>
+                <textarea placeholder="Message" id="msg" rows="100"></textarea>
+                <button id="submit">
+                    <p id="minP">Submit</p>
+                    <img style="display: none;" src="https://retchhh.files.wordpress.com/2015/03/loading1.gif" width="80" id="minI">
+                </button>
+            </div>
+                <div class="success-sent"  style="display: none;">
+                    <img src="https://www.pngall.com/wp-content/uploads/2016/07/Success-PNG-Image.png"  width="80">
+                    <h2>Your message has been successfully sent.</h2>
+                </div>
+        </div>
+
+    </main>
+</body>
+<script src="./main.js" ></script>
+</html>
